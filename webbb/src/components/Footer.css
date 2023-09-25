@@ -1,0 +1,50 @@
+/* Footer Content */
+#footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Social Media Icons */
+#social-media i {
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+/* Contact Info */
+#contact-info {
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+/* Download Resume */
+#resume-download button {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+footer {
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(53,53,53,1) 100%);
+  color: white;
+}
+
+#social-media i:hover {
+  color: #0073e6;
+  transition: color 0.3s ease-in-out;
+}
+
+#resume-download button:hover {
+  background-color: #005bb5;
+  transition: background-color 0.3s ease-in-out;
+}
+
+footer {
+  font-family: 'Your Font', sans-serif;
+}
+

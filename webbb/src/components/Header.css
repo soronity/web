@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  height: 100vh;  /* 100% of the viewport height */
+  background: linear-gradient(to bottom, #0073e6, #00c6ff); /* Sample gradient */
+  color: white;  /* Text color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Center content vertically */
+  align-items: center;  /* Center content horizontally */
+}
+
+
+#logo {
+  font-size: 2em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.active {
+  font-weight: bold;
+}

@@ -1,0 +1,34 @@
+#main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+#main-section {
+  background: linear-gradient(to right, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  color: white;  /* Set text color to white for better readability */
+}
+
+
+#main-section {
+  background-attachment: fixed;
+}
+
+
+#game-wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 50px;
+}
+
+#additional-info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
